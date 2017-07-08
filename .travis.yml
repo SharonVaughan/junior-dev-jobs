@@ -1,13 +1,13 @@
 # Let's tell travis what language we're writing in
 language: node_js
 node_js:
-	- "node"
+  - "node"
 
 # "Cache" tells Travis to keep some files between builds
 cache:
-	directories:
-		- "node_modules"
+  directories:
+    - "node_modules"
 
 # "Script" is what runs the build
 script:
-	- ./build/build.sh
+  - ./build/build.sh
